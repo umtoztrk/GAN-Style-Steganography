@@ -47,7 +47,7 @@ $$L_{total} = \alpha L_{cont} + \beta L_{sty} + \lambda L_{ext} - \gamma L_{adv}
 │
 └── 📄 README.md                # Project documentation
 ```
-# 🚀 Quick Start & Usage
+## 🚀 Quick Start & Usage
 1. Requirements
     Python 3.8+
 
@@ -58,6 +58,7 @@ $$L_{total} = \alpha L_{cont} + \beta L_{sty} + \lambda L_{ext} - \gamma L_{adv}
     NumPy
 
 2. Running the Tests
+
 A. Basic Payload & Visual Quality Test
 Evaluates the core embedding and extraction mechanics.
 ```bash
@@ -73,7 +74,7 @@ Demonstrates how the repetition coding (x7) corrects physical layer errors to re
 ```bash
 python test_channel_coding.py
 ```
-# 📊 Experimental Results
+## 📊 Experimental Results
 Based on our testing and evaluation phase:
 
 Visual Fidelity: Achieved a PSNR of 21.5 dB, rendering the steganographic modifications visually coherent with standard artistic transfers.
@@ -84,7 +85,7 @@ Enhanced Recovery: With Channel Coding enabled, the system successfully corrects
 
 Security Rating: The SRNet discriminator detection rate hovers around 60%, closely approaching the ideal Nash Equilibrium of 50% (random guessing).
 
-# 🎓 Credits & References
+## 🎓 Credits & References
 Developers: 
 - Umut Öztürk 
 - Eren Eroğlu

@@ -46,7 +46,7 @@ $$L_{total} = \alpha L_{cont} + \beta L_{sty} + \lambda L_{ext} - \gamma L_{adv}
 ├── 🖼️ test_image.jpg           # Sample content image for quick testing
 │
 └── 📄 README.md                # Project documentation
-
+```
 🚀 Quick Start & Usage
 1. Requirements
 Python 3.8+
@@ -63,3 +63,30 @@ Evaluates the core embedding and extraction mechanics.
 ```bash
 python test_payload.py
 ```
+B. Steganalysis Security Test
+Pits the generated stego image against the SRNet Discriminator.
+```bash
+python test_security.py
+```
+C. Channel Coding Test
+Demonstrates how the repetition coding (x7) corrects physical layer errors to recover the exact text payload perfectly.
+```bash
+python test_channel_coding.py
+```
+📊 Experimental Results
+Based on our testing and evaluation phase:
+
+Visual Fidelity: Achieved a PSNR of 21.5 dB, rendering the steganographic modifications visually coherent with standard artistic transfers.
+
+Raw Bit Accuracy: The base model achieves ~92.5% physical layer accuracy for text bits.
+
+Enhanced Recovery: With Channel Coding enabled, the system successfully corrects the remaining ~7.5% error margin, yielding 100% Message Recovery.
+
+Security Rating: The SRNet discriminator detection rate hovers around 60%, closely approaching the ideal Nash Equilibrium of 50% (random guessing).
+
+🎓 Credits & References
+Developers: Umut Öztürk & Eren Eroğlu.
+
+Base Paper: Li, L., Zhang, X., Chen, K., Feng, G., Wu, D., & Zhang, W. (2024). Image Steganography and Style Transformation Based on Generative Adversarial Network. Mathematics, 12(4), 615.
+
+

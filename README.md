@@ -47,15 +47,15 @@ $$L_{total} = \alpha L_{cont} + \beta L_{sty} + \lambda L_{ext} - \gamma L_{adv}
 │
 └── 📄 README.md                # Project documentation
 ```
-🚀 Quick Start & Usage
+# 🚀 Quick Start & Usage
 1. Requirements
-Python 3.8+
+    Python 3.8+
 
-PyTorch & Torchvision
+    PyTorch & Torchvision
 
-Pillow (PIL)
+    Pillow (PIL)
 
-NumPy
+    NumPy
 
 2. Running the Tests
 A. Basic Payload & Visual Quality Test
@@ -73,7 +73,7 @@ Demonstrates how the repetition coding (x7) corrects physical layer errors to re
 ```bash
 python test_channel_coding.py
 ```
-📊 Experimental Results
+# 📊 Experimental Results
 Based on our testing and evaluation phase:
 
 Visual Fidelity: Achieved a PSNR of 21.5 dB, rendering the steganographic modifications visually coherent with standard artistic transfers.
@@ -84,8 +84,10 @@ Enhanced Recovery: With Channel Coding enabled, the system successfully corrects
 
 Security Rating: The SRNet discriminator detection rate hovers around 60%, closely approaching the ideal Nash Equilibrium of 50% (random guessing).
 
-🎓 Credits & References
-Developers: Umut Öztürk & Eren Eroğlu.
+# 🎓 Credits & References
+Developers: 
+- Umut Öztürk 
+- Eren Eroğlu
 
 Base Paper: Li, L., Zhang, X., Chen, K., Feng, G., Wu, D., & Zhang, W. (2024). Image Steganography and Style Transformation Based on Generative Adversarial Network. Mathematics, 12(4), 615.
 

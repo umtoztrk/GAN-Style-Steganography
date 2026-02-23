@@ -87,9 +87,13 @@ Security Rating: The SRNet discriminator detection rate hovers around 60%, close
 
 ## 🔮 Future Work
 While the core architecture successfully demonstrates coverless steganography, we plan to improve the system in the following areas:
+
 Graphical User Interface (GUI): Transitioning from command-line scripts to a user-friendly application interface to make the system accessible to non-technical end-users.
+
 Perfecting the Nash Equilibrium: Currently, the discriminator detection rate is ~60%. We aim to train the model longer with a more aggressive adversarial weight ($\gamma$) to push this down to exactly 50% (random guessing).
+
 Hyper-Realistic Visual Quality: Refining hyperparameters and warmup strategies to push the image visual fidelity (PSNR) from 21.5 dB to >30 dB.
+
 Bridging the Raw Accuracy Gap: Improving the base model's raw bit extraction reliability closer to 99% before applying any channel coding.
 
 ## 🎓 Credits & References

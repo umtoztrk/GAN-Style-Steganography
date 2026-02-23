@@ -85,7 +85,7 @@ Enhanced Recovery: With Channel Coding enabled, the system successfully corrects
 
 Security Rating: The SRNet discriminator detection rate hovers around 60%, closely approaching the ideal Nash Equilibrium of 50% (random guessing).
 
-##🔮 Future Work
+## 🔮 Future Work
 While the core architecture successfully demonstrates coverless steganography, we plan to improve the system in the following areas:
 Graphical User Interface (GUI): Transitioning from command-line scripts to a user-friendly application interface to make the system accessible to non-technical end-users.
 Perfecting the Nash Equilibrium: Currently, the discriminator detection rate is ~60%. We aim to train the model longer with a more aggressive adversarial weight ($\gamma$) to push this down to exactly 50% (random guessing).
